@@ -1,5 +1,5 @@
-# webvid
-Large-scale text-video dataset.
+# WebVid Dataset
+Large-scale text-video dataset, containing 10M video-text pairs.
 
 
 
