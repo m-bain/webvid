@@ -1,5 +1,5 @@
 # WebVid Dataset
-Large-scale text-video dataset, containing 10M video-text pairs scraped from the web. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
+Large-scale text-video dataset, **containing 10 million video-text pairs** scraped from the web. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
 
 
 
