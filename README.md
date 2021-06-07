@@ -10,7 +10,7 @@ If you use this dataset in your research, please cite:
 
 Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.
 [Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval](https://arxiv.org/abs/2104.00650).
-CVPR 2021.
+ArXiV 2021.
 
 <div class="highlight highlight-source-shell"><pre>
 @misc{bain2021frozen,
