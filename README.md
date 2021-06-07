@@ -1,6 +1,5 @@
 # WebVid Dataset
-Large-scale text-video dataset, containing 10M video-text pairs.
-
+Large-scale text-video dataset, containing 10M video-text pairs scraped from the web. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
 
 
 
@@ -8,10 +7,10 @@ Large-scale text-video dataset, containing 10M video-text pairs.
 
 If you use this dataset in your research, please cite:
 
-Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.
-[Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval](https://arxiv.org/abs/2104.00650).
-ArXiV 2021.
 
+[Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval](https://arxiv.org/abs/2104.00650)
+
+Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.
 <div class="highlight highlight-source-shell"><pre>
 @misc{bain2021frozen,
       title={Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval}, 
@@ -37,9 +36,9 @@ ArXiV 2021.
 
 ###
 
-**Q3**: Can you provide download scripts?
+**Q3**: Can you provide download scripts in this repository?
 
-**A2**: No, contact me privately if you need help.
+**A2**: No, contact me privately if you need advice on how to download.
 
 ## Contact Us
 
