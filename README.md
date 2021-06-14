@@ -2,7 +2,9 @@
 Large-scale text-video dataset, **containing 10 million video-text pairs** scraped from the web. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
 
 2.5M Subset
+
 [train](http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_train.csv) (640MB)
+
 [val](http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_val.csv) (1.3MB)
 
 10M (Coming Soon)
