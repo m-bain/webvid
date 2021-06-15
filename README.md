@@ -35,7 +35,7 @@ Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.
 
 **Q1**: Can you provide the original videos for download?
 
-**A1**: Since we do not own the videos in the dataset, we cannot legally provide them to you. The video owner(s) can choose to delete it at anytime, in which case the video will no longer be available in the dataset. Due to this, unfortunately, some videos in the dataset will be lost over time, and we are unable to help with this issue. However, the sources are official and we expect the large majority of videos to be available for the forseeable futuree.
+**A1**: Since we do not own the videos in the dataset, we cannot legally provide them to you. The video owner(s) can choose to delete it at anytime, in which case the video will no longer be available in the dataset. Due to this, unfortunately, some videos in the dataset will be lost over time, and we are unable to help with this issue. However, the sources are official and we expect the large majority of videos to be available for the forseeable future.
 ###
 
 **Q2**: Is it normal that a subset of videos cannot be retrieved from the provided URLs?
@@ -46,7 +46,7 @@ Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.
 
 **Q3**: Can you provide download scripts in this repository?
 
-**A2**: No, contact me privately if you need advice on how to download.
+**A3**: No, contact me privately if you need advice on how to download.
 
 ## Contact Us
 
