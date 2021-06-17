@@ -4,11 +4,13 @@ Large-scale text-video dataset, **containing 10 million video-text pairs** scrap
 2.5M Subset
 
 - [train](http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_train.csv) (640MB)
-wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_train.csv
+
+`wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_train.csv`
 
 
 - [val](http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_val.csv) (1.3MB)
-wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_val.csv
+
+`wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_val.csv`
 
 
 10M
