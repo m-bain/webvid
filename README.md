@@ -1,4 +1,6 @@
 # WebVid Dataset
+### [project page](https://m-bain.github.io/webvid-dataset/)
+
 Large-scale text-video dataset, **containing 10 million video-text pairs** scraped from the web. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
 
 2.5M Subset
@@ -58,6 +60,12 @@ Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.
 **Q3**: Can you provide download scripts in this repository?
 
 **A3**: No, contact me privately if you need advice on how to download.
+
+###
+
+**Q3**: I noticed there are watermarks on the videos, how will this affect training?
+
+**A3**: We found we were still able to achieve top performance (with the watermarks) on downstream text-to-video retrieval, both for finetuning and zero-shot settings. We expect similar results on other video language tasks but didn't test these in the paper. If you do use this dataset for other video-language tasks, we'd be interested to hear how it goes.
 
 ## Contact Us
 
