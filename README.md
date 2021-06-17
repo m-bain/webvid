@@ -14,8 +14,13 @@ Large-scale text-video dataset, **containing 10 million video-text pairs** scrap
 
 
 10M
+
 - (Coming Soon)
 
+
+## Disclaimer
+
+We note that data sourced from the web may prone to biases and may contain graphic content. Please be careful of unintended societal, gender, racial and other biases when training or deploying models trained on this data.
 
 ## Cite
 
