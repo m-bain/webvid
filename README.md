@@ -17,7 +17,14 @@ Large-scale text-video dataset, **containing 10 million video-text pairs** scrap
 
 10M
 
-- (Coming Soon)
+- [train](http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_train.csv) (2.7GB)
+
+`wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_train.csv`
+
+
+- [val](http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_val.csv) (1.3MB)
+
+`wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_val.csv`
 
 
 ## Disclaimer
@@ -55,15 +62,9 @@ Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.
 
 ###
 
-**Q3**: Can you provide download scripts in this repository?
+**Q3**: I noticed there are watermarks on the videos, how will this affect training?
 
-**A3**: No, contact me privately if you need advice on how to download.
-
-###
-
-**Q4**: I noticed there are watermarks on the videos, how will this affect training?
-
-**A4**: We found we were still able to achieve top performance (with the watermarks) on downstream text-to-video retrieval, both for finetuning and zero-shot settings. We expect similar results on other video language tasks but didn't test these in the paper. If you do use this dataset for other video-language tasks, we'd be interested to hear how it goes.
+**A3**: We found we were still able to achieve top performance (with the watermarks) on downstream text-to-video retrieval, both for finetuning and zero-shot settings. We expect similar results on other video language tasks but didn't test these in the paper. If you do use this dataset for other video-language tasks, we'd be interested to hear how it goes.
 
 ## Contact Us
 
