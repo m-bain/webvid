@@ -4,7 +4,12 @@ import numpy as np
 import argparse
 import requests
 import concurrent.futures
+from mpi4py import MPI
+import warnings 
 
+COMM = MPI.COMM_WORLD
+RANK = COMM.Get_rank()
+SIZE = COMM.Get_size()
 
 def request_save(url, save_fp):
     img_data = requests.get(url, timeout=5).content
@@ -15,11 +20,15 @@ def request_save(url, save_fp):
 def main(args):
     ### preproc
     video_dir = os.path.join(args.data_dir, 'videos')
-    if not os.path.exists(os.path.join(video_dir, 'videos')):
-        os.makedirs(os.path.join(video_dir, 'videos'))
+    if RANK == 0:
+        if not os.path.exists(os.path.join(video_dir, 'videos')):
+            os.makedirs(os.path.join(video_dir, 'videos'))
+    
+    COMM.barrier()
 
     # ASSUMES THE CSV FILE HAS BEEN SPLIT INTO N PARTS
     partition_dir = args.csv_path.replace('.csv', f'_{args.partitions}')
+
     # if not, then split in this job.
     if not os.path.exists(partition_dir):
         os.makedirs(partition_dir)
@@ -42,7 +51,8 @@ def main(args):
 
 
     df = pd.read_csv(os.path.join(partition_dir, f'{args.part}.csv'))
-    df['rel_fn'] = df.apply(lambda x: os.path.join(x['page_dir'], str(x['videoid'])),
+
+    df['rel_fn'] = df.apply(lambda x: os.path.join(str(x['page_dir']), str(x['videoid'])),
                             axis=1)
 
     df['rel_fn'] = df['rel_fn'] + '.mp4'
@@ -88,6 +98,10 @@ if __name__ == "__main__":
                         help='Path to csv data to download')
     parser.add_argument('--processes', type=int, default=8)
     args = parser.parse_args()
+
+    if SIZE > 1:
+        warnings.warn("Overriding --part with MPI rank number")
+        args.part = RANK
 
     if args.part >= args.partitions:
         raise ValueError("Part idx must be less than number of partitions")
