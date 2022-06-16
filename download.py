@@ -5,6 +5,7 @@ import argparse
 import requests
 import concurrent.futures
 from mpi4py import MPI
+import warnings 
 
 COMM = MPI.COMM_WORLD
 RANK = COMM.Get_rank()
@@ -99,6 +100,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if SIZE > 1:
+        warnings.warn("Overriding --part with MPI rank number")
         args.part = RANK
 
     if args.part >= args.partitions:
