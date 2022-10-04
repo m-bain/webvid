@@ -24,7 +24,7 @@ There might be more efficient ways download the videos than this script, e.g. by
 
 ## Download CLIP Features ⬇️
 
-CLIP ViT-B/32 Features of this dataset, extracted at 1FPS are available to download at https://huggingface.co/datasets/iejMac/CLIP-WebVid, credit to [iejMac](https://www.github.com/username). The pipeline for extracting clip features can be found here https://github.com/iejMac/video2numpy, specifically this [function call method](https://github.com/iejMac/video2numpy/blob/b59401ca1ec1af2a173d536e262d56a3ed702a50/video2numpy/resizer.py#L27).
+CLIP ViT-B/32 Features of this dataset, extracted at 1FPS are available to download at https://huggingface.co/datasets/iejMac/CLIP-WebVid, credit to [iejMac](https://www.github.com/iejMac). The pipeline for extracting clip features can be found here https://github.com/iejMac/clip-video-encode, see the example at the bottom of [this](https://github.com/iejMac/clip-video-encode/tree/main/clip_video_encode/dataset) README.
 
 N.B: CLIP features could be slightly biased / degraded due to the watermarks, which were not removed during extraction.
 
