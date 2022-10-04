@@ -1,4 +1,4 @@
-# WebVid Dataset
+# WebVid Dataset 🕸🎥
 ### [Project Page](https://www.robots.ox.ac.uk/~vgg/research/frozen-in-time/) |  [Dataset Page](https://m-bain.github.io/webvid-dataset/)  |   [Demo (Live Search)](http://meru.robots.ox.ac.uk/frozen-in-time/)
 
 Large-scale text-video dataset, **containing 10 million video-text pairs** scraped from the web. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
@@ -8,13 +8,12 @@ Large-scale text-video dataset, **containing 10 million video-text pairs** scrap
 - [train](http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_train.csv) (640MB) `wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_train.csv`
 - [val](http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_val.csv) (1.3MB) `wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_val.csv`
 
-
 10M
 
 - [train](http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_train.csv) (2.7GB)`wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_train.csv`
 - [val](http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_val.csv) (1.3MB) `wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_val.csv`
 
-## Download videos
+## Download ⬇️
 
 1. Download csv file(s) above to this repository
 2. `pip install pandas numpy requests mpi4py`
@@ -23,11 +22,19 @@ Large-scale text-video dataset, **containing 10 million video-text pairs** scrap
 There might be more efficient ways download the videos than this script, e.g. by modifying https://github.com/rom1504/img2dataset to download videos instead of images.
 
 
-## Disclaimer
+## Download CLIP Features ⬇️
+
+CLIP ViT-B/32 Features of this dataset, extracted at 1FPS are available to download at https://huggingface.co/datasets/iejMac/CLIP-WebVid, credit to [iejMac](https://www.github.com/username). The pipeline for extracting clip features can be found here https://github.com/iejMac/video2numpy, specifically this [function call method](https://github.com/iejMac/video2numpy/blob/b59401ca1ec1af2a173d536e262d56a3ed702a50/video2numpy/resizer.py#L27).
+
+N.B: CLIP features could be slightly biased / degraded due to the watermarks, which were not removed during extraction.
+
+
+## Disclaimer ⚠️
 
 We note that data sourced from the web may be prone to biases and may contain graphic content. Please be careful of unintended societal, gender, racial and other biases when training or deploying models trained on this data.
 
-## Cite
+
+## Cite 📋
 
 If you use this dataset in your research, please cite:
 
@@ -45,7 +52,7 @@ Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.
 ```
 
 
-## FAQs
+## FAQs 🙋
 
 **Q1**: Can you provide the original videos for download?
 
