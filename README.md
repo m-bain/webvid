@@ -1,7 +1,16 @@
 # WebVid Dataset 🕸🎥
 ### [Project Page](https://www.robots.ox.ac.uk/~vgg/research/frozen-in-time/) |  [Dataset Page](https://m-bain.github.io/webvid-dataset/)  |   [Demo (Live Search)](http://meru.robots.ox.ac.uk/frozen-in-time/)
 
-Large-scale text-video dataset, **containing 10 million video-text pairs** scraped from the web. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
+Large-scale text-video dataset, **containing 10 million video-text pairs** scraped from the stock footage sites. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
+
+## Terms of Access 🔓
+You must not use the content in this dataset if you do not agree to the terms outlined in [TERMS.md](TERMS.md).
+
+We do not own the copyright to any of the collected data and its use is authorised via the [Intellectual Property Office’s Exceptions to Copyright for Non-Commercial Research and Private Study](https://www.gov.uk/guidance/exceptions-to-copyright).
+
+## Metadata 📁
+
+Please see above before downloading.
 
 2.5M Subset
 
