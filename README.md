@@ -24,7 +24,7 @@ Please see above before downloading.
 
 ## Download ⬇️
 
-### Our script:
+### Our method:
 1. Download csv file(s) above to this repository
 2. `pip install pandas numpy requests mpi4py`
 3. To download on one job: `python download.py --csv_path results_2M_train.csv --partitions 1 --part 0 --data_dir ./data --processes 8`. You can split this across N concurrent jobs by choosing `--partitions N` partitions and running each job with different `--part $idx`. You can also specify the number of processes, recommended one per cpu.
