@@ -24,12 +24,15 @@ Please see above before downloading.
 
 ## Download ⬇️
 
+### Our script:
 1. Download csv file(s) above to this repository
 2. `pip install pandas numpy requests mpi4py`
 3. To download on one job: `python download.py --csv_path results_2M_train.csv --partitions 1 --part 0 --data_dir ./data --processes 8`. You can split this across N concurrent jobs by choosing `--partitions N` partitions and running each job with different `--part $idx`. You can also specify the number of processes, recommended one per cpu.
 
-There might be more efficient ways download the videos than this script, e.g. by modifying https://github.com/rom1504/img2dataset to download videos instead of images.
-
+### video2dataset:
+1. `pip install video2dataset`
+2. Example downloading [script](https://github.com/iejMac/video2dataset/blob/main/examples/download_webvid.sh)
+3. Load into nicely batched tensors like [this](https://github.com/iejMac/video2dataset/blob/main/examples/dataloader_example.py)
 
 ## Download CLIP Features ⬇️
 
