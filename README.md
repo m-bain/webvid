@@ -31,7 +31,7 @@ Please see above before downloading.
 
 ### video2dataset:
 1. `pip install video2dataset`
-2. Example downloading [script](https://github.com/iejMac/video2dataset/blob/main/examples/download_webvid.sh)
+2. Example downloading [script](https://github.com/iejMac/video2dataset/blob/main/examples/download_webvid.sh). video2dataset has many options for subsampling the input data (FPS, resolution, cut detection, optical flow, etc.) so this script can be greatly modified to enrich/standardize the output dataset.
 3. Load into nicely batched tensors like [this](https://github.com/iejMac/video2dataset/blob/main/examples/dataloader_example.py)
 
 ## Download CLIP Features ⬇️
