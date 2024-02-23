@@ -1,38 +1,13 @@
 # WebVid Dataset 🕸🎥
-### [Project Page](https://www.robots.ox.ac.uk/~vgg/research/frozen-in-time/) |  [Dataset Page](https://m-bain.github.io/webvid-dataset/)  |   [Demo (Live Search)](http://meru.robots.ox.ac.uk/frozen-in-time/)
+### [Project Page](https://www.robots.ox.ac.uk/~vgg/research/frozen-in-time/) | [Demo (Live Search)](http://meru.robots.ox.ac.uk/frozen-in-time/)
 
 Large-scale text-video dataset, **containing 10 million video-text pairs** scraped from the stock footage sites. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
 
-## Terms of Access 🔓
-You must not use the content in this dataset if you do not agree to the terms outlined in [TERMS.md](TERMS.md).
+## ❌ DATASET NO LONGER AVAILABLE ❌
 
-We do not own the copyright to any of the collected data and its use is authorised via the [Intellectual Property Office’s Exceptions to Copyright for Non-Commercial Research and Private Study](https://www.gov.uk/guidance/exceptions-to-copyright).
+Due to a cease and desist request from the friendly Shutterstock.com <-🤡 . Webvid is no longer publicly available. I'm sorry. Apparently me providing urls + short captions infringes on their copyright, because people have been using it for non-commerical purposes.
 
-## Metadata 📁
-
-Please see above before downloading.
-
-2.5M Subset
-
-- [train](http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_train.csv) (640MB) `wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_train.csv`
-- [val](http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_val.csv) (1.3MB) `wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_2M_val.csv`
-
-10M
-
-- [train](http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_train.csv) (2.7GB)`wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_train.csv`
-- [val](http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_val.csv) (1.3MB) `wget http://www.robots.ox.ac.uk/~maxbain/webvid/results_10M_val.csv`
-
-## Download ⬇️
-
-### Our method:
-1. Download csv file(s) above to this repository
-2. `pip install pandas numpy requests mpi4py`
-3. To download on one job: `python download.py --csv_path results_2M_train.csv --partitions 1 --part 0 --data_dir ./data --processes 8`. You can split this across N concurrent jobs by choosing `--partitions N` partitions and running each job with different `--part $idx`. You can also specify the number of processes, recommended one per cpu.
-
-### video2dataset:
-1. `pip install video2dataset`
-2. Example downloading [script](https://github.com/iejMac/video2dataset/blob/main/examples/download_webvid.sh). video2dataset has many options for subsampling the input data (FPS, resolution, cut detection, optical flow, etc.) so this script can be greatly modified to enrich/standardize the output dataset.
-3. Load into nicely batched tensors like [this](https://github.com/iejMac/video2dataset/blob/main/examples/dataloader_example.py)
+If this hinders your academic research, please send your complaints to Shutterstock.com
 
 ## Download CLIP Features ⬇️
 
@@ -68,12 +43,13 @@ Max Bain, Arsha Nagrani, Gül Varol, Andrew Zisserman.
 
 **Q1**: Can you provide the original videos for download?
 
-**A1**: Since we do not own the videos in the dataset, we cannot legally provide them to you. The video owner(s) can choose to delete it at anytime, in which case the video will no longer be available in the dataset. Due to this, unfortunately, some videos in the dataset will be lost over time, and we are unable to help with this issue. However, the sources are official and we expect the large majority of videos to be available for the forseeable future.
+**A1**: ~~Since we do not own the videos in the dataset, we cannot legally provide them to you. The video owner(s) can choose to delete it at anytime, in which case the video will no longer be available in the dataset. Due to this, unfortunately, some videos in the dataset will be lost over time, and we are unable to help with this issue. However, the sources are official and we expect the large majority of videos to be available for the forseeable future.~~ As of 23 Feb 2024, we cannot even provide the urls anymore.
+
 ###
 
 **Q2**: Is it normal that a subset of videos cannot be retrieved from the provided URLs?
 
-**A2**: Yes. See Q1.
+**A2**: ~~Yes. See Q1.~~ As of 23 Feb 2024, we cannot even provide the urls anymore.
 
 ###
 
