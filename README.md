@@ -9,7 +9,13 @@ Due to a cease and desist request from the friendly Shutterstock.com <-🤡 . We
 
 If this hinders your academic research, please send your complaints to Shutterstock.com
 
-Tip: There may or may not be alternative datasets elsewhere on the internet if you look in the right places🤗, but these have no connection to me ;)
+Tip: There may or may not be alternative sources elsewhere on the internet if you look in the right places🤗, but these have no connection to me ;)
+
+### video2dataset:
+1. `pip install video2dataset`
+2. Example downloading [script](https://github.com/iejMac/video2dataset/blob/main/examples/download_webvid.sh). video2dataset has many options for subsampling the input data (FPS, resolution, cut detection, optical flow, etc.) so this script can be greatly modified to enrich/standardize the output dataset.
+3. Load into nicely batched tensors like [this](https://github.com/iejMac/video2dataset/blob/main/examples/dataloader_example.py)
+
 
 ## Download CLIP Features ⬇️
 
