@@ -3,13 +3,16 @@
 
 Large-scale text-video dataset, **containing 10 million video-text pairs** scraped from the stock footage sites. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
 
-## ❌ DATASET NO LONGER AVAILABLE ❌
+## Download
 
-Due to a cease and desist request from the friendly Shutterstock.com <-🤡 . Webvid is no longer publicly available. I'm sorry. Apparently me providing urls + short captions infringes on their copyright, because people have been using it for non-commerical purposes.
+Webvid2M
+- train: https://anon-datasets.s3.amazonaws.com/results_2M_train.csv
+- val: https://anon-datasets.s3.amazonaws.com/results_2M_val.csv
 
-If this hinders your academic research, please send your complaints to Shutterstock.com
+Webvid10M
+- train: https://anon-datasets.s3.amazonaws.com/results_10M_train.csv
+- val: https://anon-datasets.s3.amazonaws.com/results_10M_val.csv
 
-Tip: There may or may not be alternative sources elsewhere on the internet if you look in the right places🤗, but these have no connection to me ;)
 
 ### video2dataset:
 1. `pip install video2dataset`
