@@ -5,7 +5,7 @@ Large-scale text-video dataset, **containing 10 million video-text pairs** scrap
 
 ## ❌ DATASET NO LONGER AVAILABLE ❌
 
-Due to a cease and desist request from the friendly Shutterstock.com <-🤡 . Webvid is no longer publicly available. I'm sorry. Apparently me providing urls + short captions infringes on their copyright, because people have been using it for non-commerical purposes.
+Due to a cease and desist request from the friendly Shutterstock.com <-🤡 . Webvid is no longer publicly available. I'm sorry. Apparently me providing urls + short captions infringes on their copyright, because people have been using it for commerical purposes.
 
 If this hinders your academic research, please send your complaints to Shutterstock.com
 
