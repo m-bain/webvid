@@ -3,11 +3,11 @@
 
 Large-scale text-video dataset, **containing 10 million video-text pairs** scraped from the stock footage sites. This dataset was used for large-scale pretraining to achieve state-of-the-art end-to-end retrieval in our frozen-in-time work: the code of which can be found [here](https://github.com/m-bain/frozen-in-time)
 
-## ❌ DATASET NO LONGER AVAILABLE ❌
+## Dataset no longer available, but you can still use it for internal non-commerical purposes
 
-Due to a cease and desist request from the friendly Shutterstock.com <-🤡 . Webvid is no longer publicly available. I'm sorry. Apparently me providing urls + short captions infringes on their copyright, because people have been using it for commerical purposes.
+Due to a cease and desist request from the friendly Shutterstock.com <-🤡 . I can no longer distribute the urls and captions for webvid. I'm sorry.
 
-If this hinders your academic research, please send your complaints to Shutterstock.com
+Note to all academic researchers & reviewers: YOU CAN STILL REPORT RESULTS ON WEBVID FOR BENCHMARKING PURPOSES AND NON-COMMERCIAL. ITS A FREE WORLD.
 
 Tip: There may or may not be alternative sources elsewhere on the internet if you look in the right places🤗, but these have no connection to me ;)
 
